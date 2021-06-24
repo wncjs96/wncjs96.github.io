@@ -1,0 +1,43 @@
+html {
+	min-height:100%;
+	height:100%;
+}
+body {
+	min-height:100%;
+	height:100%;
+}
+
+:root {
+	--font-logo: "Happy Monkey", cursive;
+}
+
+.carousel-translate {
+	width:70%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+}
+
+.carousel-container {
+	background: linear-gradient(180deg, #222229, #5d4545, #100a0a, #282b57);
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
+.news-container {
+	background-color: #262952;
+	padding: 20px;
+}
+
+.main-cover {
+	background-color: #262952;
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+}
+.logo-text {
+	font-family: var(--font-logo);
+	font-weight: bold;
+}
